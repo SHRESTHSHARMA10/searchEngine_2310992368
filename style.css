@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://media.istockphoto.com/id/924150124/vector/digital-marketing-line-seamless-pattern.jpg?s=612x612&w=0&k=20&c=XTMrXFSDocnlTI7OaJtZitYpuymP_d3jh5Uwl8zE_JY=);
+}
+
+.container {
+    margin-top: 100px;
+    max-width: 600px;
+    margin-left: 400px;
+    color: white;
+    
+    background: rgba(1, 4, 14, 0.526);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(233, 232, 232, 0.1);
+
+}
+
+h1 {
+
+    color: rgba(0, 255, 255, 0.627);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 1px rgb(229, 229, 229);
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-top: 5px;
+    
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(10, 77, 77);
+    color: rgb(254, 254, 255);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px 0px rgb(216, 207, 207);
+
+}
+
+button:hover {
+    background-color: #7013d4;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#searchHistory {
+    list-style: none;
+    padding: 0;
+}
+
+#searchHistory li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
